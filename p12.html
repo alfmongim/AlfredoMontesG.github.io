@@ -1,93 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 12</title>
-    <style>
-        div.p12 {
-            background-color: aquamarine;
-            height: 75vh;
-            width: 75vw;
-            margin: auto;
-            position: relative;
-            text-align: center;
-        }
+    <title>p12.html</title>
 
-        div.p12a {
-            background-color: blue;
-            width: 50%;
-            height: 50%;
-            font-size: 30px;
-            position: absolute;
-            top: 0%;
-            left: 0;
-            
-        }
+<style>
 
-        div.p12b {
-            background-color: darkorange;
-            width: 50%;
-            height: 50%;
-            font-size: 30px;
-            position: absolute;
-            top: 0;
-            left: 50%;
-        }
+div.p12{
+  background: aquamarine;
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+  position: relative;
+  color: black;
+}
 
-        div.p12c {
-            background-color: blueviolet;
-            width: 50%;
-            height: 50%;
-            font-size: 30px;
-            top: 50%;
-            left: 0;
-        }
-        
-        div.p12d {
-            background-color: chartreuse;
-            width: 50%;
-            height: 50%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            font-size: 30px;
-            top: 50%;
-            left: 50%;
+div.p12a{
+  background-color: lightgray;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-        }
-        h2{
-            margin: 0px;
-        }
-    </style>
+div.p12b{
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
 
+div.p12b img{
+  display: block;
+  margin: auto;
+}
 
+div.p12c{
+  background-color: aquamarine;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 17px;
+}
 
+div.p12c li{
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 1em;
+}
+
+div.p12c li a{
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+div.p12c li:hover{
+  background-color: grey;
+
+}
+
+div.p12d{
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+</style>
 
 </head>
-
 <body>
     <h1>Practica 12. Display & Position</h1>
-    
 
-    <div class="p12">
-        <div class="p12a"></div>
-            <h2>1.Inline images</h2>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        
-        <div class="p12b"></div>
-            <h2>2.Block images</h2>
+  <div class="p12">
+	<div class="p12a">
+    <h2>1. inline imagenes</h2>
+      <img src="https:/unsplash.it/75/75" alt="">
+      <img src="https:/unsplash.it/75/75" alt="">
+      <img src="https:/unsplash.it/75/75" alt="">
+  </div>
+	<div class="p12b">
+    <h2>2. block imagenes</h2>
+    <img src="https:/unsplash.it/75/75" alt="">
+    <img src="https:/unsplash.it/75/75" alt="">
+    <img src="https:/unsplash.it/75/75" alt="">
+  </div>
+	<div class="p12c">
+    <h2>3. inline block list</h2>
+      <ul>
+        <li><a href="">Manual</a></li>
+        <li><a href="">Manual</a></li>
+        <li><a href="">Manual</a></li>
+        <li><a href="">Manual</a></li>
+      </ul>
+  </div>
+	<div class="p12d">
+    <h2>4. vacio</h2>
+  </div>
+  </div>
 
-        <div class="p12c"></div>
-            <h2>3.Inline list</h2>
-        
-        <div class="p12d"></div>
-            <h2>4.Vacío</h2>
-    </div>
 </body>
-
 </html>
